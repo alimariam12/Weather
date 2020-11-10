@@ -29,6 +29,7 @@ $(document).ready(function(){
             let day = 0
             let imgUrl = "http://openweathermap.org/img/w/"
             let iconImg = $(".icon").attr("src", imgUrl + response.list[0].weather[0].icon + ".png")
+            let savedCities = ""
             
 
             getUV(latitude, longitude)   
